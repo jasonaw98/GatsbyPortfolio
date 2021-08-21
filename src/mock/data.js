@@ -9,7 +9,7 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: "Hello, my name is",
+  title: "Hi there, I'm",
   name: 'Jason Aw',
   subtitle: "I'm a Software QA Engineer",
   cta: '',
@@ -34,6 +34,15 @@ export const projectsData = [
     info2: '',
     url: 'https://github.com/jasonaw98/WebAutomation',
     repo: 'https://github.com/jasonaw98/WebAutomation', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'Mern.jpeg',
+    title: 'Full-Stack MERN App',
+    info: 'This is a Full-stack MERN Project built with MongoDb and Node',
+    info2: '',
+    url: 'https://github.com/jasonaw98/React-Blog-Mern',
+    repo: 'https://github.com/jasonaw98/React-Blog-Mern', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
