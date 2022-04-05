@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: "Hi there, I'm",
   name: 'Jason Aw',
-  subtitle: "I'm a Software QA Engineer",
+  subtitle: "I'm a Software QA Engineer/ Web3 Developer",
   cta: '',
 };
 
@@ -26,6 +26,15 @@ export const aboutData = {
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: nanoid(),
+    img: 'memecoin.png',
+    title: 'MemeCoin Crypto',
+    info: 'This is a real Memecoin deployed onto the Rinkeby Testnet where users are able to request and transfer Crypto. It also contains a burn function to control infaltion. Click to check out!',
+    info2: '',
+    url: 'https://jasonaw98.github.io/memecoin.github.io/',
+    repo: 'https://github.com/jasonaw98/memecoin.github.io', // if no repo, the button will not show up
+  },
   {
     id: nanoid(),
     img: 'project.jpg',
