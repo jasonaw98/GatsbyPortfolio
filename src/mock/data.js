@@ -28,6 +28,15 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'firstdao.png',
+    title: 'DAO',
+    info: 'This is a fully functional DAO with voting and treasury capabilities. Users can sign up and mint an NFT to become a member and receive Governence Token to vote. Click to check out!',
+    info2: '',
+    url: 'https://buildspace-dao-starter-v2.jasonaw98.repl.co/',
+    repo: 'https://github.com/jasonaw98/MyFirstDAO', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'memecoin.png',
     title: 'MemeCoin Crypto',
     info: 'This is a real Memecoin deployed onto the Rinkeby Testnet where users are able to request and transfer Crypto. It also contains a burn function to control infaltion. Click to check out!',
@@ -92,7 +101,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: 'https://www.linkedin.com/in/jason-a-bba727101/',
+      url: 'https://www.linkedin.com/in/jason-aw-han-wei/',
     },
     {
       id: nanoid(),
