@@ -28,6 +28,24 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'MNS.png',
+    title: 'Polygon Name Service',
+    info: 'A web app that let users purchase their very own marvel domain name and it comes with an unique NFT.',
+    info2: '',
+    url: 'https://domain-starter-project.jasonaw98.repl.co/',
+    repo: 'https://github.com/jasonaw98/Domain-name-service-Polygon', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'firstdao.png',
+    title: 'Solana Pay Store',
+    info: 'This is an online store which customers able to purchase cookies with Solana Pay. Users can also pay by scanning the QR code generated with their mobile Phantom Wallet App. Once payment is done it will automatically update the checkout',
+    info2: '',
+    url: 'https://buildspace-dao-starter-v2.jasonaw98.repl.co/',
+    repo: 'https://github.com/jasonaw98/MyFirstDAO', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'firstdao.png',
     title: 'DAO',
     info: 'This is a fully functional DAO with voting and treasury capabilities. Users can sign up and mint an NFT to become a member and receive Governence Token to vote. Click to check out!',
@@ -70,16 +88,7 @@ export const projectsData = [
     info2: '',
     url: 'https://github.com/jasonaw98/WallpaperApp',
     repo: 'https://github.com/jasonaw98/WallpaperApp', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'scrape.jpg',
-    title: 'Web Scraping',
-    info: 'This project is build on Jsoup with Java. Click to check out!',
-    info2: '',
-    url: 'https://github.com/jasonaw98/Web-Scrape',
-    repo: 'https://github.com/jasonaw98/Web-Scrape', // if no repo, the button will not show up
-  },
+  }
 ];
 
 // CONTACT DATA
