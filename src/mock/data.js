@@ -35,15 +35,15 @@ export const projectsData = [
     url: 'https://domain-starter-project.jasonaw98.repl.co/',
     repo: 'https://github.com/jasonaw98/Domain-name-service-Polygon', // if no repo, the button will not show up
   },
-  {
-    id: nanoid(),
-    img: 'firstdao.png',
-    title: 'Solana Pay Store',
-    info: 'This is an online store which customers able to purchase cookies with Solana Pay. Users can also pay by scanning the QR code generated with their mobile Phantom Wallet App. Once payment is done it will automatically update the checkout',
-    info2: '',
-    url: 'https://buildspace-dao-starter-v2.jasonaw98.repl.co/',
-    repo: 'https://github.com/jasonaw98/MyFirstDAO', // if no repo, the button will not show up
-  },
+  // {
+  //   id: nanoid(),
+  //   img: 'sol.png',
+  //   title: 'Solana Pay Store',
+  //   info: 'This is an online store which customers able to purchase cookies with Solana Pay. Users can also pay by scanning the QR code generated with their mobile Phantom Wallet App. Once payment is done it will automatically update the checkout',
+  //   info2: '',
+  //   url: 'https://buildspace-dao-starter-v2.jasonaw98.repl.co/',
+  //   repo: 'https://github.com/jasonaw98/MyFirstDAO', // if no repo, the button will not show up
+  // },
   {
     id: nanoid(),
     img: 'firstdao.png',
