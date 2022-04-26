@@ -18,14 +18,26 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'Mypic2.jpg',
-  paragraphOne: "Long story short, I'm actually a security student. But due to the Covid Pandemic I had a hard time getting a job regarding my scope of studies. But few months after my graduation, I've landed a role as a Software Enginner. From there I found myself diving into the world of development and started to pick up some skills.",
-  paragraphTwo: "But later on, I've decided to took a turn for my career. I took a bold step in switching my current profession into the wolrd of QA. In this new world, I found it super interesting as the main goal is to automate almost everything. Yes! Everything!",
-  paragraphThree: 'Putting my career aside. I also love to spend my spare time to dive deeper into the world of Development and AI. Below are the some of the projects on my GitHub besides my freelance. Feel free to reach me out for any projects and my resume can be accessed with a click of a button as below. ',
+  paragraphOne:
+    "Long story short, I'm actually a security student. But due to the Covid Pandemic I had a hard time getting a job regarding my scope of studies. But few months after my graduation, I've landed a role as a Software Enginner. From there I found myself diving into the world of development and started to pick up some skills.",
+  paragraphTwo:
+    "But later on, I've decided to took a turn for my career. I took a bold step in switching my current profession into the wolrd of QA. In this new world, I found it super interesting as the main goal is to automate almost everything. Yes! Everything!",
+  paragraphThree:
+    'Putting my career aside. I also love to spend my spare time to dive deeper into the world of Development and AI. Below are the some of the projects on my GitHub besides my freelance. Feel free to reach me out for any projects and my resume can be accessed with a click of a button as below. ',
   resume: 'https://jasonaw98.github.io/MyResume/', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: nanoid(),
+    img: 'DeFi.png',
+    title: 'DeFi Exchange',
+    info: 'A DeFi Exchange Dapp where users would able to add tokens into liquidity pools and get LP Tokens in return.',
+    info2: '',
+    url: 'https://de-fi-exchange-app.vercel.app/',
+    repo: 'https://github.com/jasonaw98/DeFi-ExchangeApp', // if no repo, the button will not show up
+  },
   {
     id: nanoid(),
     img: 'MNS.png',
@@ -88,7 +100,7 @@ export const projectsData = [
     info2: '',
     url: 'https://github.com/jasonaw98/WallpaperApp',
     repo: 'https://github.com/jasonaw98/WallpaperApp', // if no repo, the button will not show up
-  }
+  },
 ];
 
 // CONTACT DATA
@@ -106,7 +118,7 @@ export const footerData = {
       name: 'instagram',
       url: 'https://www.instagram.com/jasonaw98/',
     },
-    
+
     {
       id: nanoid(),
       name: 'linkedin',
