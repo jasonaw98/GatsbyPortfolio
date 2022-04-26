@@ -25,6 +25,7 @@ export const aboutData = {
   paragraphThree:
     'Putting my career aside. I also love to spend my spare time to dive deeper into the world of Development and AI. Below are the some of the projects on my GitHub besides my freelance. Feel free to reach me out for any projects and my resume can be accessed with a click of a button as below. ',
   resume: 'https://jasonaw98.github.io/MyResume/', // if no resume, the button will not show up
+  cv: 'https://jasonaw98.github.io/MyCV/'
 };
 
 // PROJECTS DATA
@@ -37,6 +38,15 @@ export const projectsData = [
     info2: '',
     url: 'https://de-fi-exchange-app.vercel.app/',
     repo: 'https://github.com/jasonaw98/DeFi-ExchangeApp', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'ICO.png',
+    title: 'Native Coin Mint',
+    info: 'Users can come here to mint the native tokens to be able to contribute and participate in the DeFi app to add their tokens in to the liquidity pools and earn LP Tokens',
+    info2: '',
+    url: 'https://initial-coin-offer.vercel.app/',
+    repo: 'https://github.com/jasonaw98/Initial-Coin-Offer', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
