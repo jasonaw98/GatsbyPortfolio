@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { nanoid } from 'nanoid';
 
 // HEAD DATA
@@ -25,11 +26,29 @@ export const aboutData = {
   paragraphThree:
     'Putting my career aside. I also love to spend my spare time to dive deeper into the world of Development and AI. Below are the some of the projects on my GitHub besides my freelance. Feel free to reach me out for any projects and my resume can be accessed with a click of a button as below. ',
   resume: 'https://jasonaw98.github.io/MyResume/', // if no resume, the button will not show up
-  cv: 'https://jasonaw98.github.io/MyCV/'
+  cv: 'https://jasonaw98.github.io/MyCV/',
 };
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: nanoid(),
+    img: 'SolDapp.png',
+    title: 'Solana Dapp',
+    info: 'A DAPP build on Solana Blockchain where users able to view and submit their favorite Electric Cars GIF or Images link. Build on Devnet and Sol Devnet is required',
+    info2: '',
+    url: 'https://solana-dapp-lake.vercel.app/',
+    repo: 'https://github.com/jasonaw98/SolanaDapp', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'SolNFT.png',
+    title: 'Solana NFT App',
+    info: 'Users can use this Web App to mint their Marvel Avenger Themed NFT! Some Devnet Sol is required to mint successfully',
+    info2: '',
+    url: 'https://solana-nft-two-theta.vercel.app/',
+    repo: 'https://github.com/jasonaw98/Solana-NFT', // if no repo, the button will not show up
+  },
   {
     id: nanoid(),
     img: 'DeFi.png',
